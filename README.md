@@ -1,5 +1,9 @@
 # Voice-to-Voice AI Chat (OpenAI Realtime)
 
+**Live Demo:**
+- **Frontend:** [https://v2v-homework.vercel.app/](https://v2v-homework.vercel.app/)
+- **Backend:** [https://v2v-homework.onrender.com](https://v2v-homework.onrender.com)
+
 This project is a simple web app that lets you talk to an AI using your voice, and the AI responds with voice, powered by OpenAI Whisper and GPT-4o.
 
 ## Features
