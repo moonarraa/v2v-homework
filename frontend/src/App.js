@@ -12,7 +12,7 @@ function App() {
   // Connect to WebSocket server
   const connectWebSocket = () => {
     if (!wsRef.current || wsRef.current.readyState !== 1) {
-      wsRef.current = new window.WebSocket('ws://localhost:8080');
+      wsRef.current = new window.WebSocket('https://v2v-homework.onrender.com');
       wsRef.current.onmessage = (event) => {
         const data = JSON.parse(event.data);
         if (data.text) {
